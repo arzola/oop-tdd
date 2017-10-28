@@ -6,7 +6,8 @@
     "psr-4": {
       "App\\": "./src",
       "Properties\\": "./src/Properties",
-      "LateStatic\\": "./src/LateStatic"
+      "LateStatic\\": "./src/LateStatic",
+      "Db\\": "./src/Database"
     }
   }
 }
