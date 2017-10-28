@@ -1,4 +1,7 @@
-<?php namespace App;
+<?php
+
+namespace App;
+
 /*
  * Ejercicio
  * Implementar el código faltante para que funcione el código de ejemplo en la parte inferior

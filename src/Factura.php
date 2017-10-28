@@ -1,4 +1,6 @@
-<?php namespace App;
+<?php
+
+namespace App;
 
 /*
  * Ejercicio
@@ -10,5 +12,5 @@
 
 class Factura
 {
-    
+
 }

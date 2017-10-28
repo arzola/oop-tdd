@@ -1,4 +1,6 @@
-<?php namespace App;
+<?php
+
+namespace App;
 
 /*
  * Ejercicio
@@ -19,6 +21,7 @@ class Recibo
         foreach ($this->items as $item) {
             $total += $item['price'] * Recibo::IVA;
         }
+
         return $total;
     }
 }
