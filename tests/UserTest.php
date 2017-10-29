@@ -14,6 +14,11 @@ class UserTest extends TestCase
 
         $this->assertEquals("Enviando notificación por Email a Luisa", $result);
 
+        $user = new User('Mario', new EmailNotification);
+        $result = $user->update();
+
+        $this->assertEquals("Enviando notificación por Email a Mario", $result);
+
         $anotherUser = new User('Roberto', new WhatsAppNotification);
         $secondResult = $anotherUser->update();
 
