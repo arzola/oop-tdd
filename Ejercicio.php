@@ -16,7 +16,7 @@ abstract class Facturable
 
 class Factura extends Facturable
 {
-    public function print($total = 0)
+    public function print()
     {
         return <<<FACTURA
         ======================\n
