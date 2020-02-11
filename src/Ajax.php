@@ -1,8 +1,5 @@
 <?php
 
-namespace App;
-
-class Ajax
-{
-
+function ajax(){
+  
 }
